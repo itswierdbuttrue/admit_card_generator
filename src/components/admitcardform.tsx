@@ -109,7 +109,10 @@ const AdmitCardForm: React.FC<AdmitCardFormProps> = ({ onDataChange, canvasRef }
       { id: 'subject-6', paperNo: 'Paper - 6', subject: 'CO-CURRICULAR', subjectName: '208060T-COMMUNICATION SKILLS AND PERSONALITY DEVELOPMENT' },
     ],
 
+    // Make sure printDateTime only appears once
     printDateTime: formatCurrentDateTime(),
+    
+    // Remove any duplicate printDateTime if it exists
   });
 
   useEffect(() => {

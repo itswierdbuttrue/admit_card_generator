@@ -3,7 +3,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Separator } from '@/components/ui/separator';
 import { useIsMobile } from '@/hooks/use-mobile';
 import { ResizableHandle, ResizablePanel, ResizablePanelGroup } from '@/components/ui/resizable';
-import AdmitCardForm, { AdmitCardData } from '@/components/AdmitCardForm';
+import { AdmitCardForm } from '@/components/AdmitCardForm';
 import AdmitCardPreview from '@/components/AdmitCardPreview';
 import { PLACEHOLDER_URLS } from '@/utils/imageUtils';
 
